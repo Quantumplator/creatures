@@ -116,12 +116,6 @@
     color: $color__link;
     -webkit-font-smoothing: antialiased;
     content: '\f0c0';
-    @include font-size(1);
-    @include padding-sides(0.5);
-    @include media(tablet, general) {
-      @include padding-right(0);
-      @include padding-left(1);
-    }
   }
 
 	a[href*="facebook.com"]::before { content: '\f09a'; }
