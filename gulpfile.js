@@ -44,7 +44,7 @@ var env,
     currentProj;
 
 //***** UPDATE THIS FOR EACH PROJECT - SHOULD BE YOUR localhost/dir - NO TRAILING SLASH! *****
-currentProj = 'creatures';
+currentProj = 'djh/net';
 
 // build per environment
 env = process.env.NODE_ENV || 'development';
