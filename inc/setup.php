@@ -45,6 +45,7 @@ function creatures_setup() {
   // This theme uses wp_nav_menu() in one location.
   register_nav_menus( array(
     'primary' => esc_html__( 'Primary Menu', 'creatures' ),
+    'social' => esc_html__( 'Social Menu', 'creatures' ),
   ) );
 
   /*
@@ -65,10 +66,10 @@ function creatures_setup() {
    */
   add_theme_support( 'post-formats', array(
     'aside',
-    'image',
-    'video',
-    'quote',
-    'link',
+    // 'image',
+    // 'video',
+    // 'quote',
+    // 'link',
   ) );
 
   // Set up the WordPress core custom background feature.

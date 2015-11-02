@@ -18,6 +18,7 @@
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'creatures' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'creatures' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
 			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'creatures' ), 'creatures', '<a href="https://dylanjharris.net" rel="designer">Dylan J Harris</a>' ); ?>
+      <?php creatures_social_menu(); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
